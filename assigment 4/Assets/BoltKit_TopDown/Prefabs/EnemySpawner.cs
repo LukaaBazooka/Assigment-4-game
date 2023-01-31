@@ -19,7 +19,13 @@ public class EnemySpawner : MonoBehaviour
     private IEnumerator spawnEnemy(float interval, GameObject enemy)
     {
         yield return new WaitForSeconds(interval);
-        GameObject newEnemy = Instantiate(enemy, new Vector3(Random.Range(-5f, 5), Random.Range(-6f, 6f), 0), Quaternion.identity);
+        GameObject newEnemy = Instantiate(enemy, new Vector3(Random.Range(-25f, 25), Random.Range(-25f, 26f), 0), Quaternion.identity);
+        if ( interval > 1)
+        {
+         interval = interval - .05f;
+         Debug.Log(interval);
+        }
+
         StartCoroutine(spawnEnemy(interval, enemy));
     }
 }
