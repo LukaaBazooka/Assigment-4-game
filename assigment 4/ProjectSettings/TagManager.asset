@@ -3,8 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Enemy
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -14,16 +13,6 @@ TagManager:
   - UI
   - 
   - 
-  - Player
-  - PlayerOnly
-  - Enemies
-  - EnemiesOnly
-  - PlayerWeapon
-  - Pickups
-  - Environment
-  - PlayerProjectiles
-  - EnemyProjectiles
-  - here
   - 
   - 
   - 
@@ -36,12 +25,28 @@ TagManager:
   - 
   - 
   - 
+  - Layer 1
+  - Layer 2
+  - Layer 3
   - 
-  - initiate
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   m_SortingLayers:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: New Layer 1
-    uniqueID: 3363311495
+  - name: Layer 1
+    uniqueID: 2425651459
+    locked: 0
+  - name: Layer 2
+    uniqueID: 4250941897
+    locked: 0
+  - name: Layer 3
+    uniqueID: 4189426099
     locked: 0

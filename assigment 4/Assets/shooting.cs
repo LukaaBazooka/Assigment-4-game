@@ -18,7 +18,7 @@ public class shooting : MonoBehaviour
         for(int i = 0; i < 3; i++)
         {
             Instantiate(bullet,bulletTransform.position,Quaternion.identity);
-            Destroy(bullet);
+            DestroyImmediate(bullet);
 
             yield return new WaitForSeconds(0.25f);
         }
