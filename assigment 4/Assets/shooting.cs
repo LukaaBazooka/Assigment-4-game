@@ -15,15 +15,13 @@ public class shooting : MonoBehaviour
 
     IEnumerator BulletSpawn()
     {
-        for(int i = 0; i < 3; i++)
-        {
-            Instantiate(bullet,bulletTransform.position,Quaternion.identity);
-            DestroyImmediate(bullet);
 
-            yield return new WaitForSeconds(0.25f);
-        }
-
-        
+        Instantiate(bullet, bulletTransform.forward, Quaternion.identity);
+        Instantiate(bullet, bulletTransform.forward, Quaternion.identity);
+        Instantiate(bullet, bulletTransform.forward, Quaternion.identity);
+        DestroyImmediate(bullet);
+ 
+        yield return new WaitForSeconds(1);
     }
 
     // Start is called before the first frame update

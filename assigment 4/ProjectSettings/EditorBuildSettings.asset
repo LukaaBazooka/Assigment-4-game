@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/BoltKit_TopDown/Scenes/MainMenu.unity
+    guid: 181b8e74a87e95c428ba998045020153
+  - enabled: 1
+    path: Assets/BoltKit_TopDown/Scenes/Load.unity
+    guid: 46e485843f3c02d4c82b99cde1053e07
+  - enabled: 1
+    path: Assets/BoltKit_TopDown/Scenes/Level03.unity
+    guid: 1ab68704d5ab145439a898be042ed2e2
   m_configObjects: {}
